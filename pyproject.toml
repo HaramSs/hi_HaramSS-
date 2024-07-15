@@ -10,7 +10,8 @@ requires-python = "==3.12.*"
 readme = "README.md"
 license = {text = "MIT"}
 
-[project.script]
-hi_haramss = hi_haramss.hello:hi
+[project.scripts]
+hi_haramss = "hi_haramss.hello:hi"
+
 [tool.pdm]
 distribution = true
